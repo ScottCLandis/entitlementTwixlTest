@@ -89,7 +89,7 @@ final class Application extends TWXApplication {
     //
     // If the token is invalid, we return an error message.
     //
-    // The different parameters are sent as a HTTP POST request.
+    // The different parameters are sent as a HTTP POST request. 
     public function actionEntitlements() {
 
         $token = TWXParam::any('token');
